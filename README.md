@@ -20,6 +20,7 @@
     - Posicionamentos
     - Pseudo-elementos
     - Pseudo-classes
+    - Flex-Box
    
 
 ## 🌎 Minhas redes sociais
