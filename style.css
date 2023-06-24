@@ -11,6 +11,7 @@ body{
 }
 
 header {
+    height: 18vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -89,7 +90,7 @@ header {
   }
 
 .Galeria {
-    color: #E4EEF1;
+    background-color: #E4EEF1;
 }
 
 .Galeria figure{
@@ -99,8 +100,43 @@ header {
     align-items: center;
 }
 
-footer{
-  background-color: #4B93BF;
-  
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #4b93bf;
+}
+
+#Contato {
+  display: flex;
+  align-items: center;
+}
+
+.Devs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Devs a {
+  color: #ffffff;
+}
+
+.Devs a:hover {
+  color: #d1dbe3;
+}
+
+footer p {
+  text-align: center;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+footer a:hover{
+  color: #E4EEF1;
 }
 
